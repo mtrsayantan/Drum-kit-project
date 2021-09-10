@@ -20,27 +20,27 @@ document.addEventListener("keypress", function(event) {
 function sound(key) {
   switch (key) {
     case "w":
-      var sound1 = new Audio("sounds/sounds_tom-1.mp3");
+      var sound1 = new Audio("sounds_tom-1.mp3");
       sound1.play();
       break;
   
     case "a":
-      var sound2 = new Audio("sounds/sounds_tom-2.mp3");
+      var sound2 = new Audio("sounds_tom-2.mp3");
       sound2.play();
       break;
   
     case "s":
-      var sound3 = new Audio('sounds/sounds_tom-3.mp3');
+      var sound3 = new Audio('sounds_tom-3.mp3');
       sound3.play();
       break;
   
     case "d":
-      var sound4 = new Audio('sounds/sounds_tom-4.mp3');
+      var sound4 = new Audio('sounds_tom-4.mp3');
       sound4.play();
       break;
   
     case "j":
-      var sound5 = new Audio('sounds/sounds_snare.mp3');
+      var sound5 = new Audio('sounds_snare.mp3');
       sound5.play();
       break;
   
